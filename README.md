@@ -5,7 +5,7 @@
 | 版本号        | 详情         | 备注  |
 | ------------- |:-------------:| -----:|
 | 1.0.0     | nodejs:last/typescript |  vscode本地开发版本 |
-| 1.0.1     | nodejs:last|  vscode本地开发版本 |
+| 1.0.4    | nodejs:last|  vscode本地开发版本 |
 
 ## 阿里云自动构建过程
 
