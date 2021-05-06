@@ -1,0 +1,21 @@
+version: "3"
+services:
+  # docker-go
+  nodejs:
+    container_name: nodejs
+    build:
+      context: ./
+    privileged: true
+    command: sleep infinity 
+    volumes: 
+      - "vdata-nodejs:/workspace"
+      - "~:/share"
+    networks:
+      - app_net
+
+networks:
+    app_net:
+        external: true
+
+volumes:
+    vdata-nodejs: 
