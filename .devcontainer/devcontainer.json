@@ -23,7 +23,10 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"dbaeumer.vscode-eslint"
+		"dbaeumer.vscode-eslint",
+		"christian-kohler.path-intellisense",
+		"ms-vscode.vscode-typescript-tslint-plugin",
+		"ipatalas.vscode-postfix-ts"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
