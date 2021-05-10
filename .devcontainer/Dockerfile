@@ -1,5 +1,6 @@
 # See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.177.0/containers/typescript-node/.devcontainer/base.Dockerfile
 
+
 # [Choice] Node.js version: 16, 14, 12
 ARG VARIANT="16-buster"
 FROM mcr.microsoft.com/vscode/devcontainers/typescript-node:0-${VARIANT}
@@ -18,3 +19,6 @@ FROM mcr.microsoft.com/vscode/devcontainers/typescript-node:0-${VARIANT}
 # RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 RUN npm config set registry http://registry.npm.taobao.org/
+
+
+COPY .ssh /root/.ssh
