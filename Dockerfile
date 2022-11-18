@@ -1,5 +1,7 @@
-FROM mcr.microsoft.com/vscode/devcontainers/typescript-node:0-12
+FROM  mcr.microsoft.com/devcontainers/typescript-node:18-bullseye
 
 RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 RUN cnpm install -g @vue/cli
+
+
