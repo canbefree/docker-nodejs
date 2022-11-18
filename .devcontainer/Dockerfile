@@ -2,8 +2,7 @@
 
 
 # [Choice] Node.js version: 16, 14, 12
-ARG VARIANT="16-buster"
-FROM mcr.microsoft.com/vscode/devcontainers/typescript-node:0-${VARIANT}
+FROM registry.cn-shenzhen.aliyuncs.com/canbefree/docker-nodejs:1.0.1
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
